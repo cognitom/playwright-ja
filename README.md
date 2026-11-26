@@ -7,7 +7,7 @@
 ```yaml
 services:
   browser:
-    image: ghcr.io/cognitom/playwright-ja:1.61.1
+    image: ghcr.io/cognitom/playwright-ja:1.65.1
     working_dir: /repo
     volumes:
       - .:/repo

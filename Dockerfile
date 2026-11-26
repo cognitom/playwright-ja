@@ -1,5 +1,5 @@
 # Playwright の版はここだけで決める (イメージのタグもここから取る)
-ARG PLAYWRIGHT_VERSION=1.61.1
+ARG PLAYWRIGHT_VERSION=1.65.1
 
 FROM mcr.microsoft.com/playwright:v${PLAYWRIGHT_VERSION}-noble
 ARG PLAYWRIGHT_VERSION
