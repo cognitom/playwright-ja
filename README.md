@@ -19,3 +19,5 @@ services:
 ## 版を上げる
 
 `Dockerfile` の `ARG PLAYWRIGHT_VERSION` を書き換える。main に push すると、その版と `latest` のタグで公開される。
+
+最初の公開のあと、[パッケージの設定](https://github.com/users/cognitom/packages/container/playwright-ja/settings) で Public にする。

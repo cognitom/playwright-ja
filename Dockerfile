@@ -17,3 +17,5 @@ RUN npm install -g --no-audit --no-fund \
  && npm cache clean --force
 
 ENV NODE_PATH=/usr/lib/node_modules
+
+LABEL org.opencontainers.image.source=https://github.com/cognitom/playwright-ja
